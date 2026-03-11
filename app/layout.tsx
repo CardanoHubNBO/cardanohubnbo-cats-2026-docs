@@ -46,10 +46,10 @@ const navbar = (
   <Navbar
     logo={
       <div>
-        <Image src="/prisma-name-text-dark.svg" width={140} height={60} alt="Prisma Logo" />
+        CardanoHubNBO
       </div>
     }
-    logoLink={"https://www.prisma.events/"}
+
     chatIcon={<FaTelegramPlane className={`${iconClasses} ${getRandomHoverColor()}`} />}
     chatLink={"https://t.me/+9-UF8k9H8dBjNWFk"}
     children={
