@@ -51,12 +51,12 @@ const navbar = (
     }
 
     chatIcon={<FaTelegramPlane className={`${iconClasses} ${getRandomHoverColor()}`} />}
-    chatLink={"https://t.me/+9-UF8k9H8dBjNWFk"}
+    chatLink={""}
     children={
       <div className="inline-flex items-center gap-4">
         {/* X (Twitter) */}
         <a
-          href="https://twitter.com/__prismaevents"
+          href="https://x.com/cardanohubnbo"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -65,7 +65,7 @@ const navbar = (
 
         {/* Open Collective */}
         <a
-          href="https://opencollective.com/prisma-collective"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -74,7 +74,7 @@ const navbar = (
 
         {/* Calendar */}
         <a
-          href="https://lu.ma/prisma"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -82,7 +82,7 @@ const navbar = (
         </a>
       </div>
     }
-    projectLink={"https://github.com/prisma-collective/"}
+    projectLink={"https://github.com/CardanoHubNBO"}
     projectIcon={<FaGithub className={`${iconClasses} ${getRandomHoverColor()}`} />}
   />
 );
