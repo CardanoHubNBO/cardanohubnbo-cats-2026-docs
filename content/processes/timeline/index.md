@@ -1,3 +1,8 @@
+---
+asIndexPage: true
+sidebarTitle: Timeline
+---
+
 # Timeline
 
 A timeline is a visual representation of events, activities, and milestones organized sequentially to show the evolution and progression of a project, initiative, or learning journey.

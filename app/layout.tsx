@@ -121,10 +121,11 @@ export default async function RootLayout({
         <Layout
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/prisma-collective/docs"
+          docsRepositoryBase="https://github.com/CardanoHubNBO"
           footer={footer}
           sidebar={{ autoCollapse: true, defaultMenuCollapseLevel: 1 }}
           editLink={null}
+          navigation={false}
           nextThemes={{ defaultTheme: "dark" }}
         >
           <ActiveJourneyProvider>
